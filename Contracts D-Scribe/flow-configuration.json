@@ -1,0 +1,22 @@
+{
+	"emulators": {},
+	"contracts": {
+		"Scriborrr": "Scriborrr.cdc"
+	},
+	"networks": {
+		"emulator": "LOCALHOST",
+		"mainnet": "MAINNET",
+		"testnet": "TESTNET"
+	},
+	"accounts": {
+		"my-testnet-account": {
+			"address": "ENTER ADDRESS",
+			"key": "DON'T COMMIT YOUR PRIVATE KEY"
+		}
+	},
+	"deployments": {
+		"testnet": {
+			"my-testnet-account": ["Scriborrr"]
+		}
+	}
+}
