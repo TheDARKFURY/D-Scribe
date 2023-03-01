@@ -4,13 +4,13 @@
 		"Scriborrr": "Scriborrr.cdc"
 	},
 	"networks": {
-		"emulator": "LOCALHOST",
-		"mainnet": "MAINNET",
-		"testnet": "TESTNET"
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
 	},
 	"accounts": {
 		"my-testnet-account": {
-			"address": "ENTER ADDRESS",
+			"address": "ADDRESS",
 			"key": "DON'T COMMIT YOUR PRIVATE KEY"
 		}
 	},
